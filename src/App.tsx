@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#FFF2F2',
+    backgroundColor: 'black',
   },
   diceContainer: {
     margin: 12,
@@ -100,15 +100,17 @@ const styles = StyleSheet.create({
     height: 200,
   },
   rollDiceBtnText: {
+    marginTop: 17,
     paddingVertical: 10,
     paddingHorizontal: 40,
     borderWidth: 2,
     borderRadius: 8,
     borderColor: '#E5E0FF',
-    fontSize: 16,
-    color: '#8EA7E9',
-    fontWeight: '700',
+    fontSize: 26,
+    color: 'black',
+    fontWeight: 'bold',
     textTransform: 'uppercase',
+    backgroundColor: 'aqua'
   },
 });
 
